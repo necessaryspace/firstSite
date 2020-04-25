@@ -776,6 +776,7 @@ footer a + a{
     .contacts{
     	display: flex;
     	justify-content: center;
+    	padding-top: 4.5em;
 
     }
     .contacts a + a{
