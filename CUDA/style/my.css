@@ -600,6 +600,191 @@ footer a + a{
 
 
 
+@media (max-width: 1024px) {
+	:root{
+		font-size: 1rem;
+	}
+	body{
+		font-size: 0.5em;
+	}
+	header{
+	    height: 350px;
+	    max-width: 850px;
+	    margin: 0 auto;
+	}
+	.h1-nav h1{
+		font-size: 1.8rem;
+	}
+
+
+
+	/*section-services*/
+
+
+
+	.content-services{
+	    align-items: center;
+	    flex-wrap: wrap;
+
+	}
+	.section-services{
+	    height: 1100px;
+	    max-width: 850px;
+	    margin: 0 auto;
+	    
+    }
+    .item-services{
+        margin-top: 6em;
+        flex-basis: 350px;
+    }
+
+
+
+    /*section-team*/
+
+
+
+    .content-team{
+	    flex-wrap: wrap;
+	    align-items: center;
+	
+	}
+	.section-team{
+	    height: 1350px;
+	    max-width: 850px;
+	    margin: 0 auto;
+    }
+    .item-team{
+        margin-top: 6em;
+        flex-basis: 350px;
+    }
+
+
+
+    /*section-skills*/
+
+
+
+    .content-skills{
+	    flex-wrap: wrap;
+	    align-items: center;
+	}
+	.section-skills{
+	    height: 930px;
+	    max-width: 850px;
+	    margin: 0 auto;
+    }
+    .item-skills{
+        margin-top: 6em;
+        flex-basis: 350px;
+    }
+
+
+
+    /*section-portfolio*/
+
+
+
+    .content-portfolio{
+    	flex-wrap: wrap;
+	    align-items: center;
+	}
+	.section-portfolio{
+	    height: 1100px;
+	    max-width: 850px;
+	    margin: 0 auto;
+    }
+    .item-portfolio{
+        margin-top: 6em;
+        flex-basis: 380px;
+
+    }
+    .item-portfolio img{
+    	width: 100%;
+   
+    }
+    .item-portfolio-bottom img{
+    	width: 100%;
+
+    }
+    .item-portfolio-bottom{
+    	flex-basis: 380px;
+
+
+    }
+
+
+
+    /*section-feedback*/
+
+
+
+    .content-feedback{
+    	flex-wrap: wrap;
+	    align-items: center;
+	}
+	.section-feedback{
+	    height: 1050px;
+	    max-width: 850px;
+	    margin: 0 auto;
+    }
+    .item-feedback{
+    	position: relative; 
+    	flex-basis: 400px;
+    }
+    .item-feedback img{
+    	position: absolute;
+    	left: -5em;
+    }
+
+
+
+    /*section-form*/
+
+
+
+
+	.section-form{
+	    height: 850px;
+	    max-width: 550px;
+	    margin: 0 auto;    
+    }
+    .button-form{
+    	position: relative;
+    	left: 7em;
+    }
+    .name-form{
+    	width: 100%;
+    }
+    .email-form{
+    	width: 100%;
+    	margin-top: 1.3em;
+    }
+    .textarea-form{
+    	width: 100%;
+    }
+
+
+
+    /*footer*/
+
+
+
+    .background-footer{
+    	height: 120px;
+    }
+    .contacts{
+    	display: flex;
+    	justify-content: center;
+
+    }
+    .contacts a + a{
+    	margin-left: 1em;
+    }
+}
+
+
+
 @media (max-width: 560px) {
 	:root{
 		font-size: 1rem;
@@ -610,6 +795,7 @@ footer a + a{
 	header{
 	    height: 450px;
 	    max-width: 350px;
+	    margin: 0 auto;
 	}
 	.section-nav{
 		display: none;
@@ -631,6 +817,7 @@ footer a + a{
 	.section-services{
 	    height: 1950px;
 	    max-width: 350px;
+	    margin: 0 auto;
     }
     .item-services{
         margin-top: 6em;
@@ -650,6 +837,7 @@ footer a + a{
 	.section-team{
 	    height: 2450px;
 	    max-width: 350px;
+	    margin: 0 auto;
     }
     .item-team{
         margin-top: 6em;
@@ -666,8 +854,9 @@ footer a + a{
 	    align-items: center;
 	}
 	.section-skills{
-	    height: 1480px;
+	    height: 1850px;
 	    max-width: 350px;
+	    margin: 0 auto;
     }
     .item-skills{
         margin-top: 6em;
@@ -685,6 +874,7 @@ footer a + a{
 	.section-portfolio{
 	    height: 1750px;
 	    max-width: 350px;
+	    margin: 0 auto;
     }
     .item-portfolio{
         margin-top: 6em;
@@ -710,6 +900,7 @@ footer a + a{
 	.section-feedback{
 	    height: 1400px;
 	    max-width: 280px;
+	    margin: 0 auto;
     }
     .item-feedback{
     	position: relative; 
@@ -731,6 +922,7 @@ footer a + a{
 	.section-form{
 	    height: 850px;
 	    max-width: 350px;
+	    margin: 0 auto;
     }
     .button-form{
     	position: relative;
@@ -742,6 +934,9 @@ footer a + a{
     .email-form{
     	width: 100%;
     	margin-top: 1.3em;
+    }
+    .textarea-form{
+    	width: 100%;
     }
 
 
